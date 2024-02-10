@@ -1,4 +1,5 @@
 <?php 
+    namespace Fedoseev\Task02;
     class Vector
     {
         private $x;
@@ -39,7 +40,7 @@
             return new Vector($prodX, $prodY, $prodZ);
         }
 
-        public function scalarProd(Vector $vector): int
+        public function scalarProd(Vector $vector): float
         {
             $scalProdX = $this->x * $vector->x;
             $scalProdY = $this->y * $vector->y;

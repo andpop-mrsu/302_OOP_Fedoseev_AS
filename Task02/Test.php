@@ -3,13 +3,13 @@ require_once 'Vector.php';
 function runTest()
 {
     echo "String representation test" . PHP_EOL;
-    $v1 = new Vector(1, 2, 3);
+    $v1 = new \Fedoseev\Task02\Vector(1, 2, 3);
     echo "Ожидается: (1; 2; 3)" . PHP_EOL;
     echo "Получено: " . $v1 . PHP_EOL;
     echo PHP_EOL;
 
     echo "Adding test" . PHP_EOL;
-    $v2 = new Vector(1, 4, -2);
+    $v2 = new \Fedoseev\Task02\Vector(1, 4, -2);
     $v3 = $v1->add($v2);
     echo "Ожидается: (2; 6; 1)" . PHP_EOL;
     echo "Получено: " . $v3 . PHP_EOL;
