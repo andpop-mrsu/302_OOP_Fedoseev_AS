@@ -1,5 +1,5 @@
 <?php
-require_once 'Vector.php';
+
 function runTest()
 {
     echo "String representation test" . PHP_EOL;
